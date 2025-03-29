@@ -184,3 +184,9 @@ data
 .dev
 poetry.lock
 apps/setting/models_provider/impl/*/icon/
+
+# 项目特定文件
+tmp/
+data/cache/
+apps/dataset/migrations/*.py
+!apps/dataset/migrations/__init__.py
