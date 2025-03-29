@@ -139,7 +139,7 @@ const getProfile: (loading?: Ref<boolean>) => Promise<Result<any>> = (loading) =
 /**
  * 获取校验
  * @param valid_type 校验类型: application|dataset|user
- * @param valid_count 校验数量: 5 | 50 | 2
+ * @param valid_count 校验数量: 5 | 50 | 9999
  */
 const getValid: (
   valid_type: string,

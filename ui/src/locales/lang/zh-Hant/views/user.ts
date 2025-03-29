@@ -6,7 +6,7 @@ export default {
     updatePwd: '修改使用者密碼'
   },
   tip: {
-    professionalMessage: '社群版最多支援 2 個使用者，如需擁有更多使用者，請升級為專業版。',
+    professionalMessage: '社群版最多支援 9999 個使用者，如需擁有更多使用者，請升級為專業版。',
     updatePwdSuccess: '使用者密碼修改成功'
   },
   delete: {
