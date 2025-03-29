@@ -12,5 +12,5 @@ export enum ValidType {
 export enum ValidCount {
   Application = 5,
   Dataset = 50,
-  User = 2
+  User = 9999
 }
