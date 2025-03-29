@@ -851,10 +851,10 @@ msgstr "icon 图标"
 #: .\apps\application\serializers\application_serializers.py:711
 #: .\apps\setting\serializers\valid_serializers.py:29
 msgid ""
-"The community version supports up to 5 applications. If you need more "
+"The community version supports up to 9999 applications. If you need more "
 "applications, please contact us (https://fit2cloud.com/)."
 msgstr ""
-"社区版最多支持 5 个应用，如需拥有更多应用，请联系我们（https://"
+"社区版最多支持 9999 个应用，如需拥有更多应用，请联系我们（https://"
 "fit2cloud.com/）"
 
 #: .\apps\application\serializers\application_serializers.py:572
@@ -2716,10 +2716,10 @@ msgstr "web站点url"
 #: .\apps\dataset\serializers\dataset_serializers.py:414
 #: .\apps\setting\serializers\valid_serializers.py:26
 msgid ""
-"The community version supports up to 50 knowledge bases. If you need more "
+"The community version supports up to 9999 knowledge bases. If you need more "
 "knowledge bases, please contact us (https://fit2cloud.com/)."
 msgstr ""
-"社区版最多支持 50 个知识库，如需拥有更多知识库，请联系我们（https://"
+"社区版最多支持 9999 个知识库，如需拥有更多知识库，请联系我们（https://"
 "fit2cloud.com/）。"
 
 #: .\apps\dataset\serializers\dataset_serializers.py:424
@@ -2996,10 +2996,6 @@ msgstr "空行"
 
 #: .\apps\dataset\serializers\document_serializers.py:1141
 msgid "Hit handling method is required"
-msgstr "命中处理方式必填"
-
-#: .\apps\dataset\serializers\document_serializers.py:1143
-msgid "The hit processing method must be directly_return|optimization"
 msgstr "命中处理方式必须是 directly_return|optimization"
 
 #: .\apps\dataset\serializers\document_serializers.py:1189
@@ -3867,7 +3863,7 @@ msgstr "{key} 是必填项"
 #: .\apps\setting\models_provider\impl\openai_model_provider\credential\llm.py:57
 #: .\apps\setting\models_provider\impl\qwen_model_provider\credential\image.py:55
 #: .\apps\setting\models_provider\impl\qwen_model_provider\credential\llm.py:55
-#: .\apps\setting\models_provider\impl\qwen_model_provider\model\tti.py:43
+#: .\apps\setting\models_provider\impl\qwen_model_provider\credential\tti.py:43
 #: .\apps\setting\models_provider\impl\tencent_model_provider\credential\embedding.py:22
 #: .\apps\setting\models_provider\impl\tencent_model_provider\credential\image.py:55
 #: .\apps\setting\models_provider\impl\tencent_model_provider\credential\llm.py:49
@@ -4705,7 +4701,7 @@ msgid ""
 "are generated fastest.\n"
 "        "
 msgstr ""
-"默认情况下，图像以标准质量生成，但使用 DALL·E 3 时，您可以设置质量：“hd”以增"
+"默认情况下，图像以标准质量生成，但使用 DALL·E 3 时，您可以设置质量："hd"以增"
 "强细节。方形、标准质量的图像生成速度最快。"
 
 #: .\apps\setting\models_provider\impl\openai_model_provider\credential\tti.py:43
